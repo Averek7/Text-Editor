@@ -1,8 +1,8 @@
 import './App.css';
-import Navbar from './Components/navbar.js';
-import Textform from './Components/textform.js';
-import About from './Components/about.js';
-import Alert from './Components/alert.js';
+import Navbar from './Component/navbar.js';
+import Textform from './Component/textform.js';
+import About from './Component/about.js';
+import Alert from './Component/alert.js';
 import React, { useState } from 'react'
 
 // import {
@@ -49,7 +49,7 @@ function App() {
       <Alert alert={alert}/>
       {/* <Switch>
         <Route path="/about"> */}
-          <About mode={mode}/>
+          {/* <About mode={mode}/> */}
         {/* </Route>
         <Route path="/"> */}
           <Textform mode={mode} showAlert={showAlert}/>
